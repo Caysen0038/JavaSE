@@ -21,9 +21,6 @@ public class TankWar extends Thread{
 	private AI[] enemy=new AI[10];
 	private int AIcount=0;
 	private int[][] AIcoor=new int[10][2];
-	public static void main(String[] args) {
-		TankWar tankwar=new TankWar();
-	}
 	public TankWar(){
 		this.main=new JFrame("Tank War     -version 1.0");
 		setMain();
